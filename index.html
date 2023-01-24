@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <title>Jogo da Velha</title>
+    <!-- css e javascript-->
+    <link rel="stylesheet" href="Estilo.css">
+    <script src="velha.js"></script>
+    <!--Fontes do google-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="menu">
+        <h1>Jogo da Velha</h1>
+        <form>
+            <center>
+                <!-- Jogador escollhe entre "x" ou "o" para começar a jogar -->
+                <legend>Selecione para começar a jogar:</legend>
+                <select onclick="" id="select">
+                    <option value="x" selected>X</option>
+                    <option value="o">O</option>
+                </select>
+            </center>
+            <br>
+        </form>
+        <!-- Estrutura do jogo da velha-->
+        <table border="0" cellspacing="5" align="center">
+            <tr>
+                <td><img src="imagens/rosa.png" id="cel1" onClick="jogar(), chkJogo(this.id)"></td>
+                <td><img src="imagens/rosa.png" id="cel2" onClick="jogar(), chkJogo(this.id)"></td>
+                <td><img src="imagens/rosa.png" id="cel3" onClick="jogar(), chkJogo(this.id)"></td>
+            </tr>
+            <tr>
+                <td><img src="imagens/rosa.png" id="cel4" onClick="jogar(), chkJogo(this.id)"></td>
+                <td><img src="imagens/rosa.png" id="cel5" onClick="jogar(), chkJogo(this.id)"></td>
+                <td><img src="imagens/rosa.png" id="cel6" onClick="jogar(), chkJogo(this.id)"></td>
+            </tr>
+            <tr>
+                <td><img src="imagens/rosa.png" id="cel7" onClick="jogar(), chkJogo(this.id)"></td>
+                <td><img src="imagens/rosa.png" id="cel8" onClick="jogar(), chkJogo(this.id)"></td>
+                <td><img src="imagens/rosa.png" id="cel9" onClick="jogar(), chkJogo(this.id)"></td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>

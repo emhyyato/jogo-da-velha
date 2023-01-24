@@ -1,0 +1,38 @@
+body {
+
+    background-color: #FFDEAD;
+
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 29px;
+    color: black;
+
+}
+
+
+label {
+
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+
+}
+
+select {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    background-color: #D8BFD8;
+    color: black;
+}
+
+legend {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: black;
+
+
+}
